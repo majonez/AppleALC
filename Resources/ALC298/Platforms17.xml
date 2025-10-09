@@ -50,46 +50,22 @@
 									<true/>
 								</dict>
 								<key>NodeID</key>
-								<integer>7</integer>
+								<integer>17</integer>
 							</dict>
 							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>Channels</key>
-									<array>
-										<dict>
-											<key>Bind</key>
-											<integer>1</integer>
-											<key>Channel</key>
-											<integer>1</integer>
-										</dict>
-										<dict>
-											<key>Bind</key>
-											<integer>2</integer>
-											<key>Channel</key>
-											<integer>2</integer>
-										</dict>
-									</array>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<true/>
-								</dict>
 								<key>NodeID</key>
 								<integer>36</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
-								<integer>0</integer>
+								<integer>1</integer>
 								<key>NodeID</key>
 								<integer>18</integer>
 							</dict>
 						</array>
 					</array>
+				</array>
+				<array>
 					<array>
 						<array>
 							<dict>
@@ -119,46 +95,42 @@
 									<key>VolumeInputAmp</key>
 									<true/>
 								</dict>
+								<key>MaximumBitDepth</key>
+								<integer>24</integer>
+								<key>MaximumSampleRate</key>
+								<integer>96000</integer>
+								<key>MinimumBitDepth</key>
+								<integer>24</integer>
 								<key>MinimumSampleRate</key>
 								<integer>48000</integer>
 								<key>NodeID</key>
 								<integer>8</integer>
 							</dict>
 							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>Channels</key>
-									<array>
-										<dict>
-											<key>Bind</key>
-											<integer>1</integer>
-											<key>Channel</key>
-											<integer>1</integer>
-										</dict>
-										<dict>
-											<key>Bind</key>
-											<integer>2</integer>
-											<key>Channel</key>
-											<integer>2</integer>
-										</dict>
-									</array>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<true/>
-								</dict>
+								<key>MaximumBitDepth</key>
+								<integer>24</integer>
+								<key>MaximumSampleRate</key>
+								<integer>96000</integer>
+								<key>MinimumBitDepth</key>
+								<integer>24</integer>
+								<key>MinimumSampleRate</key>
+								<integer>48000</integer>
 								<key>NodeID</key>
 								<integer>35</integer>
 							</dict>
 							<dict>
 								<key>Boost</key>
-								<integer>2</integer>
+								<integer>3</integer>
+								<key>MaximumBitDepth</key>
+								<integer>24</integer>
+								<key>MaximumSampleRate</key>
+								<integer>96000</integer>
+								<key>MinimumBitDepth</key>
+								<integer>24</integer>
+								<key>MinimumSampleRate</key>
+								<integer>48000</integer>
 								<key>NodeID</key>
-								<integer>25</integer>
+								<integer>24</integer>
 							</dict>
 						</array>
 					</array>
@@ -170,6 +142,21 @@
 								<key>Amp</key>
 								<dict>
 									<key>MuteInputAmp</key>
+									<false/>
+									<key>PublishMute</key>
+									<true/>
+									<key>PublishVolume</key>
+									<true/>
+									<key>VolumeInputAmp</key>
+									<false/>
+								</dict>
+								<key>NodeID</key>
+								<integer>33</integer>
+							</dict>
+							<dict>
+								<key>Amp</key>
+								<dict>
+									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
 									<true/>
@@ -179,7 +166,7 @@
 									<false/>
 								</dict>
 								<key>NodeID</key>
-								<integer>20</integer>
+								<integer>12</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -212,53 +199,6 @@
 								<integer>2</integer>
 							</dict>
 						</array>
-						<array>
-							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>MuteInputAmp</key>
-									<true/>
-									<key>PublishMute</key>
-									<true/>
-									<key>PublishVolume</key>
-									<true/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
-								<key>NodeID</key>
-								<integer>23</integer>
-							</dict>
-							<dict>
-								<key>Amp</key>
-								<dict>
-									<key>Channels</key>
-									<array>
-										<dict>
-											<key>Bind</key>
-											<integer>1</integer>
-											<key>Channel</key>
-											<integer>5</integer>
-										</dict>
-										<dict>
-											<key>Bind</key>
-											<integer>2</integer>
-											<key>Channel</key>
-											<integer>6</integer>
-										</dict>
-									</array>
-									<key>MuteInputAmp</key>
-									<false/>
-									<key>PublishMute</key>
-									<false/>
-									<key>PublishVolume</key>
-									<false/>
-									<key>VolumeInputAmp</key>
-									<false/>
-								</dict>
-								<key>NodeID</key>
-								<integer>3</integer>
-							</dict>
-						</array>
 					</array>
 					<array>
 						<array>
@@ -270,12 +210,43 @@
 									<key>PublishMute</key>
 									<true/>
 									<key>PublishVolume</key>
-									<false/>
+									<true/>
 									<key>VolumeInputAmp</key>
 									<false/>
 								</dict>
+								<key>MaximumBitDepth</key>
+								<integer>24</integer>
+								<key>MaximumSampleRate</key>
+								<integer>96000</integer>
+								<key>MinimumBitDepth</key>
+								<integer>24</integer>
+								<key>MinimumSampleRate</key>
+								<integer>48000</integer>
 								<key>NodeID</key>
-								<integer>33</integer>
+								<integer>23</integer>
+							</dict>
+							<dict>
+								<key>Amp</key>
+								<dict>
+									<key>MuteInputAmp</key>
+									<true/>
+									<key>PublishMute</key>
+									<true/>
+									<key>PublishVolume</key>
+									<true/>
+									<key>VolumeInputAmp</key>
+									<false/>
+								</dict>
+								<key>MaximumBitDepth</key>
+								<integer>24</integer>
+								<key>MaximumSampleRate</key>
+								<integer>96000</integer>
+								<key>MinimumBitDepth</key>
+								<integer>24</integer>
+								<key>MinimumSampleRate</key>
+								<integer>48000</integer>
+								<key>NodeID</key>
+								<integer>13</integer>
 							</dict>
 							<dict>
 								<key>Amp</key>
@@ -298,12 +269,20 @@
 									<key>MuteInputAmp</key>
 									<true/>
 									<key>PublishMute</key>
-									<false/>
+									<true/>
 									<key>PublishVolume</key>
 									<true/>
 									<key>VolumeInputAmp</key>
 									<false/>
 								</dict>
+								<key>MaximumBitDepth</key>
+								<integer>24</integer>
+								<key>MaximumSampleRate</key>
+								<integer>96000</integer>
+								<key>MinimumBitDepth</key>
+								<integer>24</integer>
+								<key>MinimumSampleRate</key>
+								<integer>48000</integer>
 								<key>NodeID</key>
 								<integer>3</integer>
 							</dict>
@@ -312,7 +291,7 @@
 				</array>
 			</array>
 			<key>PathMapID</key>
-			<integer>33</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 </dict>

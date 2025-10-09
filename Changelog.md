@@ -1,7 +1,30 @@
 AppleALC Changelog
 ==================
+#### v1.9.5
+- Added constants for macOS 26 support
+- Added ALC256 layout-id 100 for Dell Latitude 5490 var1 by nikich768
+- Fixed ALC257 layout-id 86 for Thinkpad T480 by lolipuru
+- Added VT1802 layout-id 35 for Vit P2402 by nickleby92
+- Update Controller Plist for TigerLake Notebook dan 800 Motherboard by Andres ZeroCross
+
+#### v1.9.4
+- Added ALC298 layout-id 17 for SAMSUNG NT950SBE by SkyFever
+- Updated PinConfig ALC897 layout-id 11 by narcyzzo
+- Update Controllers.plist by andreszerocross
+- Added ALC256 layout-id 48 and 49 for Asus X515JF-EJ012 by nikich768
+
+#### v1.9.3
+- Fix AMD HDA Controllers on macOS Sequoia by @Zormeister
+- Added ALC892 layout-id 66 for MSI GE60 2OC/2OE/2OD by tsanie
+- Added ALC294 layout-id 24 for Asus ROG Strix G512li by theroadw
+
 #### v1.9.2
 - Fixed 700 series HDA controller patch as found on Z790 motherboards and alike by savvas
+- Added ALCS1200A layout-id 12 for ASUS-TUF-Z390M-Gaming by mobilestebu
+- Added ALC274 layout-id 11 for Dell Optiplex 7470 AIO by wern-apfel
+- Added ALC285 layout-id 33 for ROG Zepherus G14 (2014) by Plut02
+- Fixed ALC289 layout-id 33 by Plut02
+- Added ALCS1200A layout-id 23 for MSI B460I by VanXNF
 
 #### v1.9.1
 - Added constants for macOS 15 support
